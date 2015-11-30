@@ -1,0 +1,26 @@
+{
+  "name": "autoembed",
+  "version": "0.0.1",
+  "description": "auto-embed youtube/youku/netease etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require should test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoist/autoembed.git"
+  },
+  "keywords": [
+    "embed"
+  ],
+  "author": "EGOIST",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egoist/autoembed/issues"
+  },
+  "homepage": "https://github.com/egoist/autoembed#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  }
+}
