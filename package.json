@@ -4,7 +4,8 @@
   "description": "auto-embed youtube/youku/netease etc.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require should test.js"
+    "test": "mocha --require should test.js",
+    "uglify": "uglifyjs index.js -o autoembed.min.js --screw-ie8 -c"
   },
   "repository": {
     "type": "git",
